@@ -1,0 +1,14 @@
+run "make" to build executable "vatsLook"
+
+run vatsLook with the following parameter format: [-df] [-t termin] string file
+
+where flags:
+	-d only compares alphanumeric characters
+	-t ignores case
+	-t termin compares characters up until "termin"
+
+string is the prefix to be searched for in each line of file
+
+if file is not specified, /usr/share/dict/words will be used as default
+
+Github: https://github.com/kartik924/Final-Project
